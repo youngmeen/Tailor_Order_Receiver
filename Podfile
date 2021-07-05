@@ -8,5 +8,5 @@ target 'TailorOrder_Receive' do
   # Pods for TailorOrder_Receive
   pod 'Firebase/Analytics'
   pod 'Firebase/Database'
-
+  pod 'MaterialComponents/Dialogs'
 end

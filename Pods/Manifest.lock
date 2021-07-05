@@ -83,6 +83,67 @@ PODS:
   - GoogleUtilities/UserDefaults (7.3.1):
     - GoogleUtilities/Logger
   - leveldb-library (1.22.1)
+  - MaterialComponents/AnimationTiming (124.2.0)
+  - MaterialComponents/Availability (124.2.0)
+  - MaterialComponents/Buttons (124.2.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/Shadow
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Dialogs (124.2.0):
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Elevation (124.2.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (124.2.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/private/Application (124.2.0)
+  - MaterialComponents/private/Color (124.2.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/KeyboardWatcher (124.2.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (124.2.0)
+  - MaterialComponents/Ripple (124.2.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Shadow (124.2.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/ShadowElevations (124.2.0)
+  - MaterialComponents/ShadowLayer (124.2.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/ShapeLibrary (124.2.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/Shapes
+  - MaterialComponents/Shapes (124.2.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Typography (124.2.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+    - MDFTextAccessibility
+  - MDFInternationalization (3.0.0)
+  - MDFTextAccessibility (2.0.1)
   - nanopb (2.30908.0):
     - nanopb/decode (= 2.30908.0)
     - nanopb/encode (= 2.30908.0)
@@ -93,6 +154,7 @@ PODS:
 DEPENDENCIES:
   - Firebase/Analytics
   - Firebase/Database
+  - MaterialComponents/Dialogs
 
 SPEC REPOS:
   trunk:
@@ -106,6 +168,9 @@ SPEC REPOS:
     - GoogleDataTransport
     - GoogleUtilities
     - leveldb-library
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
     - nanopb
     - PromisesObjC
 
@@ -120,9 +185,12 @@ SPEC CHECKSUMS:
   GoogleDataTransport: cd9db2180fcecd8da1b561aea31e3e56cf834aa7
   GoogleUtilities: e1d9ed4e544fc32a93e00e721400cbc3f377200d
   leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
+  MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
+  MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
+  MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
 
-PODFILE CHECKSUM: fb5b23ab352d7fac2a4b33f6f2cac53eda533559
+PODFILE CHECKSUM: ff8af2893aa19cac4afbe49613f18ff921d74afe
 
 COCOAPODS: 1.10.1
