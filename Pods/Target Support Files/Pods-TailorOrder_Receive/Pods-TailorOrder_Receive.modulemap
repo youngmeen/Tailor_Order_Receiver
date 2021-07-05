@@ -1,0 +1,6 @@
+framework module Pods_TailorOrder_Receive {
+  umbrella header "Pods-TailorOrder_Receive-umbrella.h"
+
+  export *
+  module * { export * }
+}
