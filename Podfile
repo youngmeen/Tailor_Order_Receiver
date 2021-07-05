@@ -6,5 +6,7 @@ target 'TailorOrder_Receive' do
   use_frameworks!
 
   # Pods for TailorOrder_Receive
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Database'
 
 end

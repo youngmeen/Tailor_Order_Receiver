@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		8BB35F6E269292ED00F3A2C8 /* TailorOrder_Receive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BB35F6C269292ED00F3A2C8 /* TailorOrder_Receive.xcdatamodeld */; };
 		8BB35F70269292EE00F3A2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB35F6F269292EE00F3A2C8 /* Assets.xcassets */; };
 		8BB35F73269292EE00F3A2C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB35F71269292EE00F3A2C8 /* LaunchScreen.storyboard */; };
+		8BB35F7B269294AE00F3A2C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BB35F7A269294AE00F3A2C8 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8BB35F6F269292EE00F3A2C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BB35F72269292EE00F3A2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BB35F74269292EE00F3A2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB35F7A269294AE00F3A2C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		92921D9B6BE82D84848574D8 /* Pods-TailorOrder_Receive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TailorOrder_Receive.release.xcconfig"; path = "Target Support Files/Pods-TailorOrder_Receive/Pods-TailorOrder_Receive.release.xcconfig"; sourceTree = "<group>"; };
 		EB0D897629CFB5EE44704001 /* Pods_TailorOrder_Receive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TailorOrder_Receive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -50,7 +52,6 @@
 				41F94D0426FE27467BE50552 /* Pods-TailorOrder_Receive.debug.xcconfig */,
 				92921D9B6BE82D84848574D8 /* Pods-TailorOrder_Receive.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,16 +84,41 @@
 		8BB35F62269292ED00F3A2C8 /* TailorOrder_Receive */ = {
 			isa = PBXGroup;
 			children = (
-				8BB35F63269292ED00F3A2C8 /* AppDelegate.swift */,
-				8BB35F65269292ED00F3A2C8 /* SceneDelegate.swift */,
-				8BB35F67269292ED00F3A2C8 /* ViewController.swift */,
-				8BB35F69269292ED00F3A2C8 /* Main.storyboard */,
-				8BB35F6F269292EE00F3A2C8 /* Assets.xcassets */,
-				8BB35F71269292EE00F3A2C8 /* LaunchScreen.storyboard */,
+				8BB35F7E269295A700F3A2C8 /* Supporting Files */,
+				8BB35F7D2692959800F3A2C8 /* View */,
+				8BB35F7C2692958800F3A2C8 /* Assets */,
 				8BB35F74269292EE00F3A2C8 /* Info.plist */,
-				8BB35F6C269292ED00F3A2C8 /* TailorOrder_Receive.xcdatamodeld */,
+				8BB35F7A269294AE00F3A2C8 /* GoogleService-Info.plist */,
 			);
 			path = TailorOrder_Receive;
+			sourceTree = "<group>";
+		};
+		8BB35F7C2692958800F3A2C8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8BB35F6F269292EE00F3A2C8 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8BB35F7D2692959800F3A2C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BB35F6C269292ED00F3A2C8 /* TailorOrder_Receive.xcdatamodeld */,
+				8BB35F67269292ED00F3A2C8 /* ViewController.swift */,
+				8BB35F69269292ED00F3A2C8 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BB35F7E269295A700F3A2C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BB35F63269292ED00F3A2C8 /* AppDelegate.swift */,
+				8BB35F65269292ED00F3A2C8 /* SceneDelegate.swift */,
+				8BB35F71269292EE00F3A2C8 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +132,7 @@
 				8BB35F5C269292ED00F3A2C8 /* Sources */,
 				8BB35F5D269292ED00F3A2C8 /* Frameworks */,
 				8BB35F5E269292ED00F3A2C8 /* Resources */,
+				09354EF7DFCC48FFC4C98B59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BB35F73269292EE00F3A2C8 /* LaunchScreen.storyboard in Resources */,
+				8BB35F7B269294AE00F3A2C8 /* GoogleService-Info.plist in Resources */,
 				8BB35F70269292EE00F3A2C8 /* Assets.xcassets in Resources */,
 				8BB35F6B269292ED00F3A2C8 /* Main.storyboard in Resources */,
 			);
@@ -162,6 +190,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		09354EF7DFCC48FFC4C98B59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TailorOrder_Receive/Pods-TailorOrder_Receive-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TailorOrder_Receive/Pods-TailorOrder_Receive-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TailorOrder_Receive/Pods-TailorOrder_Receive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7049F7285E18E2E800787CCA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
